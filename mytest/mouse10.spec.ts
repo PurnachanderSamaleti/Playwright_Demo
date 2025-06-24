@@ -25,5 +25,5 @@ test("mouse click events", async () => {
   await page.goto("https://www.spicejet.com/");
   await page.getByText("Add-ons").first().hover();
   await page.getByText("Visa Services").first().click();
-  await page.waitForTimeout(3000);
+  await page.waitForTimeout(5000);
 });
